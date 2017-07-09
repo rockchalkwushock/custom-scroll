@@ -1,0 +1,10 @@
+{
+  "env": {
+    "YOUR_ENV_VAR": "@your_env_var",
+    "NODE_ENV": "production"
+  },
+  "files": [
+    // The ONLY files you want deployed!
+  ],
+  "name": "name the deployment"
+}
