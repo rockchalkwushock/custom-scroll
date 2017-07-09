@@ -9,7 +9,7 @@ module.exports = {
     default: 'next build && next start',
     dev: 'next',
     lint: {
-      default: 'eslint src',
+      default: 'eslint pages components',
       fix: series.nps('lint --fix')
     },
     reportCoverage: 'codecov',

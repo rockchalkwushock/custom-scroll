@@ -20,13 +20,17 @@
     }
   },
   "lint-staged": {
-    "*.js": ["yarn prettier", "git add"]
+    "*.js": [
+      "yarn prettier",
+      "git add"
+    ]
   },
   "dependencies": {
-    "next": "^2.4.7",
+    "next": "^3.0.1-beta.8",
     "prop-types": "^15.5.10",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "react-scroll": "^1.5.4"
   },
   "devDependencies": {
     "commitizen": "^2.9.6",
